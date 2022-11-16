@@ -1,4 +1,4 @@
-# AWS Health Exporter [![Build Status](https://travis-ci.com/Jimdo/aws-health-exporter.svg?token=1djnvUyMgtcVefCz54T4&branch=master)](https://travis-ci.com/Jimdo/aws-health-exporter)
+# AWS Health Exporter [![Build Status](https://travis-ci.com/azlydnev/aws-health-exporter.svg?token=1djnvUyMgtcVefCz54T4&branch=master)](https://travis-ci.com/azlydnev/aws-health-exporter)
 
 This is a simple server that scrapes the [AWS Status](https://status.aws.amazon.com/) (via the [AWS Health API](https://status.aws.amazon.com/)) and exports it via HTTP for Prometheus consumption. That allows you to alert on certain AWS status updates or to just make them visible on your dashboards.
 
@@ -48,12 +48,12 @@ Flag | Description
 `--aws.service` | A list of AWS services that are used to filter events
 
 ## Docker
-You can deploy this exporter using the [jimdo/aws-health-exporter](https://hub.docker.com/r/jimdo/aws-health-exporter/) Docker Image.
+You can deploy this exporter using the [azlydnev/aws-health-exporter](https://hub.docker.com/r/azlydnev/aws-health-exporter/) Docker Image.
 
 Example
 ```
-docker pull jimdo/aws-health-exporter
-docker run -p 9383:9383 jimdo/aws-health-exporter
+docker pull azlydnev/aws-health-exporter
+docker run -p 9383:9383 azlydnev/aws-health-exporter
 ```
 
 ### Credentials

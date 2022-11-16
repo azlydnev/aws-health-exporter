@@ -1,4 +1,4 @@
-module github.com/Jimdo/aws-health-exporter
+module github.com/azlydnev/aws-health-exporter
 
 go 1.17
 
