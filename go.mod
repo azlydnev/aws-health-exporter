@@ -4,9 +4,9 @@ go 1.17
 
 require (
 	github.com/aws/aws-sdk-go v1.44.136
-	github.com/prometheus/client_golang v0.9.0-pre1
-	github.com/prometheus/client_model v0.0.0-20170216185247-6f3806018612
-	github.com/prometheus/common v0.0.0-20170830190555-bc8b88226a12
+	github.com/prometheus/client_golang v1.11.1
+	github.com/prometheus/client_model v0.2.0
+	github.com/prometheus/common v0.26.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
 
